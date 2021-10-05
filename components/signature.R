@@ -4,8 +4,8 @@ sign <- '<style type="text/css">
   overflow:hidden;padding:0px 20px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:0px 20px;word-break:normal;}
-.tg .tg-46y7{border-color:#ffffff;font-family:Arial, Helvetica, sans-serif !important;;text-align:center;vertical-align:top}
-.tg .tg-4pa0{border-color:#ffffff;font-family:Arial, Helvetica, sans-serif !important;;font-size:11px;text-align:center;
+.tg .tg-46y7{border-color:#ffffff;font-family:Arial, sans-serif !important;;text-align:center;vertical-align:top}
+.tg .tg-4pa0{border-color:#ffffff;font-family:Arial, sans-serif !important;;font-size:11px;text-align:center;
   vertical-align:top}
 @media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}</style>
 <div class="tg-wrap"><table class="tg">

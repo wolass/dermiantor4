@@ -13,8 +13,8 @@ library(tidyverse)
 template_list <- list.files(path = "templates") %>% 
     gsub(pattern = ".R", replacement = "")
 
-source(here::here("signature.R")) # Load the signature
-source(here::here("start.R"))
+source(here::here("components/signature.R")) # Load the signature
+source(here::here("components/start.R"))
 
 # Define UI 
 ui <- fluidPage(
@@ -82,7 +82,7 @@ server <- function(input, output) {
             mget(ls()) # needed for retention 
         })
         empf <- reactive({ # start a rective env
-            name <- file.path("empfehlung.R") # pick a file based on input selection
+            name <- file.path("components/empfehlung.R") # pick a file based on input selection
             source(name, local=TRUE) # source it retaining the text inside
             mget(ls()) # needed for retention 
         })
