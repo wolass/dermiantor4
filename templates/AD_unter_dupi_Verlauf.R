@@ -14,10 +14,12 @@ text1 <- paste0("<p><strong>Diagnose:</strong> atopische Dermatitis</p>",
                 " bei Bedarf. Zur Pflege wird ",
                 input$Pflege,
                 "mehrmals täglich angewendet. ",
-                ifelse(input$Cilosporin=="ja"," Da kein ausreichendes Ansprechen 
+                ifelse(input$Ciclosporin=="ja"," Da kein ausreichendes Ansprechen 
                 auf Cyclosoporin vorhanden war,", "Aufgrund von therapieresistentem 
                 Verlauf"),
-                " haben wir im 2019 Dupilumab 300mg s.c. 1x pro 2 Wochen eingeleitet. ",
+                " haben wir am ",
+                format(input$einleitungDupi,"%d.%m.%Y"),
+                " Dupilumab 300mg s.c. 1x pro 2 Wochen eingeleitet. ",
                 "Nach ",
                 input$Wochen_zu_Verbesserung,
                 " Wochen kam es zu einer signifikanten Reduktion des 

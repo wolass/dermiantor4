@@ -15,6 +15,8 @@ template_list <- list.files(path = "templates") %>%
 
 source(here::here("components/signature.R")) # Load the signature
 source(here::here("components/start.R"))
+source(here::here("components/TCS.R"))
+source(here::here("components/Pflege.R"))
 
 # Define UI 
 ui <- fluidPage(
@@ -45,24 +47,17 @@ ui <- fluidPage(
                       label = "Spritzen interval in Wochen"),
             selectInput(inputId = "TCS_basis",
                       label = "Welche TCS als Basis-Tx?",
-                      choices = c("Advantan 0,1% Creme",
-                                  "")),
+                      choices = TCS),
             selectInput(inputId = "Pflege",
                         label = "Welche Pflegeprodukt?",
-                        choices = c("Excipial U10 Lipolotio",
-                                    "Cetaphil® Feuchtigkeitscreme",
-                                    "5% Polidocanol in Mischsalbe und Basiscreme DAC",
-                                    "")),
-            radioButtons(inputId = "Abschluss",
-                         label = "Abschluss ?",
-                         choices = c("nein","ja")),
+                        choices = Pflege),
             radioButtons(inputId = "Ciclosporin",
                          label = "Ciclosporin sine effectu ?",
                          choices = c("nein","ja")),
             textInput(inputId = "Wochen_zu_Verbesserung",
                       label = "Wochen zu Verbesserung"),
             textInput(inputId = "good_since",
-                      label = "IGA 1 seit wieviel Wochen?"),
+                      label = "IGA 1 seit wieviel Monaten?"),
             textInput(inputId = "BSA",
                       label = "BSA %"),
             
