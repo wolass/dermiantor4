@@ -90,6 +90,7 @@ server <- function(input, output) {
                 start,
                 o$text1,
                 e$text2,
+                "<p>Mit freundlichen Grüßen</p>",
                 "<p>&nbsp;</p><p>&nbsp;</p>",
                  sign)) # output the generated text from the sourced template
         })
