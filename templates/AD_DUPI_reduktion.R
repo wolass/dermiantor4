@@ -18,6 +18,6 @@ text1 <- paste0("<p><strong>Diagnose:</strong> atopische Dermatitis</p>",
                 " Wochen umgestellt. Aktuell besteht weiterhin eine signifikante 
                 Reduktion des initialen Hautbefundes, mit nur vereinzelndem 
                 Ekzemstellen am unteren Extremitäten und keine Nebenwirkung. 
-                Topische Kortisonhaltige Externa werden bei Bedarf 
+                Topische Cortisonhaltige Externa werden bei Bedarf 
                 (2x wöchentlich) benutzt.</p>"
 )
