@@ -3,7 +3,7 @@ text1 <- paste0(
  ifelse(input$asthma!="ja",
         "<p><strong>Diagnose:</strong> atopische Dermatitis</p>",
         "<p><strong>Diagnosen:</strong> 1) atopische Dermatitis<br>
-         &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2) allergisches Asthma</p>"),
+         &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2) Asthma bronchiale</p>"),
                 "<p><strong>Zusammenfassende Beurteilung:</strong></p>",
                 ifelse(input$bekannt=="ja",
                        "<p>Die ausführliche Anamnese des Patienten bitten wir 
